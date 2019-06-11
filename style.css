@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 微软雅黑；
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:rgb(235,235,235);
+}
+ul,ol,li{
+	list-style: none;
+}
+/*头部*/
+.header-wrap{
+	height: 30px;
+	background-color:rgb(244,244,244); 
+}
+.header{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.pic{
+	display: inline-block;
+	height: 20px;
+	margin-top: 4px;
+}
+.left{
+	width: 600px;
+	float: left;
+}
+.left-1{
+	height: 30px;
+	float: left;
+	margin-right:10px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.left-2{
+	float: left;
+	line-height:30px;
+}
+.right{
+	width: 600px;
+	float: left;
+}
+.con{
+	float: right;
+}
+.con a:link{
+	color:black;
+}
+.con span{
+	font-size: 12px;
+}
+/*搜索栏*/
+.search{
+	width: 1200px;
+	height: 121px;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	left: : 0px;
+}
+.sea-1{
+	width: 184px;
+	height: 121px;
+    float: left;
+}
+.sea-2{
+	width: 500px;
+	height: 40px;
+	float: left;
+	margin:40px 100px 41px 200px;
+}
+.sea2-1{
+	display: inline-block;
+	height: 40px;
+	width: 400px;
+	border: 1px solid rgb(248,56,56);
+	margin-right: 0px;
+	color: rgb(202,202,202);
+	text-indent: 1em;
+	float: left;
+}
+.sea2-2{
+	display: inline-block;
+	height: 42px;
+	width: 92px;
+	margin-left:0px;
+	border: 6px solid rgb(248,56,56);
+	background-color: rgb(248,56,56);
+	color: rgb(255,255,255);
+	float: left;
+}
+.sea-3{
+	width: 150px;
+	height: 40px;            
+	border:1px solid rgb(227,227,227);
+	background-color: rgb(245,245,245);
+	margin-right: 8px;
+	margin-top: 40px;
+	float: right;
+	background-image: url(image/shopcar.png);
+	background-repeat: no-repeat;
+	background-position: 22px 1px;
+}
+.sea-3 p{
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 14px;
+	color:rgb(90,90,90);
+	float: left;
+}
+.sea-3 p span{
+	color: rgb(248,56,56);
+}
+/*导航*/
+.nav-wrap{
+	height: 45px;
+	border-bottom: 2px solid rgb(224,3,4);
+}
+.nav{
+	width: 1200px;
+	height: 40px;
+	margin:0 auto;
+}
+.nav ul li{
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	/*margin-top: 8px;*/
+	font-size: 15px;
+	float:left;
+}
+.nav ul li p{
+	margin-top: 8px;
+	margin-left: 22px;
+}
+.nav-1{
+	background-color: rgb(248,56,56);
+	color:white;
+	border-radius: 5px;
+}
+/*主体部分*/
+.main-wrap{
+	height: 655px;
+	background-color: rgb(251,251,251);
+}
+.main{
+	width: 1200px;
+	height: 655px;
+	margin: 0 auto;
+}
+.main-1{
+	height: 47px;
+}
+.main-1 p{
+	font-size: 14px;
+	color: rgb(73,73,73);
+	margin-top:25px;
+}
+.main-2{
+	height: 563px;
+}
+.main-left{
+	width: 215px;
+	height: 560px;
+	float: left;
+}
+.con-1{
+	width: 215px;
+	height: 45px;
+	background-color: white;
+	background-image: url(image/fenlei.png);
+	background-repeat: no-repeat;
+	background-position: 30px 15px;
+}
+.con-1 p{
+    font-size: 16px;
+	margin-left: 75px;
+	line-height: 45px;
+}
+.con-2{
+	width: 215px;
+	height: 505px;
+	background-color: white;
+	margin-top: 10px;
+}
+.con-2 ul li{
+	margin-left: 73px;
+	line-height: 50px; 
+}
+.con-2 ul li span{
+	color: rgb(255,68,54);
+}
+.main-right{
+	width: 970px;
+	height: 560px;
+	float: right;
+	background-color: white;
+}
+.small{
+	width: 220px;
+	height: 250px;
+	border:1px solid rgb(219,219,219);
+	float: left;
+	margin-top:15px;
+	margin-left: 15px; 
+}
+.p1{
+	font-size: 15px;
+	color: rgb(197,197,197);
+	text-align: center;
+}
+.p2{
+	font-size: 11px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*下半部分*/
+.bottom-wrap{
+	height: 133px;
+	background-color: rgb(46,46,46);
+}
+.bottom{
+	width: 1200px;
+	margin:0 auto;
+	border-bottom:1px solid rgb(69,69,69);
+}
+.write1{
+	width: 240px;
+	height: 133px;
+	float: left;
+}
+.write1 ul li{
+	font-size: 13px;
+	color: rgb(235,235,235);
+	line-height: 23px;
+	text-align: center;
+}
+.write1 ul li span{
+	font-size: 15px;
+	line-height: 45px;
+}
+/*页脚*/
+.footer-wrap{
+	height: 98px;
+	background-color: rgb(46,46,46);
+}
+.footer{
+	height: 98px;
+	width: 1200px;
+	margin: 0 auto;
+	border-top: 1px solid rgb(69,69,69);
+}
+.footer p{
+	font-size: 15px;
+	text-align: center;
+	color: rgb(132,132,132);
+	line-height: 30px;
+}
+.footer p a:link{
+	font-size: 15px;
+	color: rgb(132,132,132)
+}
+.footer p a{
+	line-height: 45px;
+}
